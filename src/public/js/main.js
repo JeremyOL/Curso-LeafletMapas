@@ -1,6 +1,5 @@
 // Creamos la conexion Socket
 const socket = io();
-
 // Creamos el mapa en el div que deseamos.
 const map = L.map('map-template');
 // Asignamos un zoom y punto inicial al mapa.
